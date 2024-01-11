@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 2.11'
 gem 'bcrypt', '~> 3.1'
 
 # AWS S3
-gem 'aws-sdk-s3', '~> 1.114'
+#gem 'aws-sdk-s3', '~> 1.114'
 # Webrick
 gem 'webrick', '~> 1.7'
 # Mail gem
@@ -37,6 +37,8 @@ gem 'mail', '>= 2.8.0.rc1'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
+#use ActiveStorage with S3
+gem 'aws-sdk-s3', '~> 1.126'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
